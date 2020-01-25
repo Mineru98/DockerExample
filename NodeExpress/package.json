@@ -1,0 +1,16 @@
+{
+  "name": "DockerExample",
+  "version": "1.0.0",
+  "description": "docker test",
+  "main": "index.js",
+  "repository": "https://github.com/Mineru98/DockerExample",
+  "author": "mineru98 <rmstjr1030@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
