@@ -1,6 +1,6 @@
 FROM python
-WORKDIR /UrlHit
+COPY ./Urlhit /server
+WORKDIR /server
 RUN pip install Flask==1.1.1
 EXPOSE 5000
-CMD ["cd", "UrlHit"]
 CMD ["python", "server.py"]
